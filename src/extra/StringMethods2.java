@@ -11,7 +11,12 @@ public class StringMethods2 {
 		
 		// 1. Create a String variable and initialize it with
 		//    random upper and lower case characters.
-
+		String s = "ConTrOlsHifTQQ";
+		System.out.println(s.toUpperCase());
+		System.out.println(s.toLowerCase());
+		System.out.println(s.substring(0,3));
+		System.out.println(s.substring(7,8));
+		System.out.println(s.substring(s.length()-3));
 		// 2. Print your String to the console in upper case.
 		
 		// 3. Print your String to the console in lower case.
